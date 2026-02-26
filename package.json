@@ -1,0 +1,12 @@
+{
+    "name": "note-app-workspace",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix note_app/Frontend\" \"npm run dev --prefix note_app/Backend\"",
+        "install:all": "npm install && npm install --prefix note_app/Frontend && npm install --prefix note_app/Backend"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
