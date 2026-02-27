@@ -90,6 +90,7 @@ button {
   cursor: pointer;
   border-radius: 6px;
   font-weight: bold;
+
 }
 
 button:hover {
@@ -115,6 +116,7 @@ button:hover {
 .btn-delete {
   background: crimson;
   margin-top: 10px;
+  gap: 2px;
 }
 
 .btn-delete:hover {
